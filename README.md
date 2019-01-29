@@ -1,16 +1,26 @@
-# flutter_tea
+# Flutter-Teas
 
-A Flutter test application for Teforia.
+This app consists of simple two screens, which are the teas list screen and tea details screens.
 
-## Getting Started
+## IDE
+- [Android Studio](https://developer.android.com/studio/?gclid=EAIaIQobChMIlJPwxYKT4AIVFiCtBh2GlQIzEAAYASABEgLe4fD_BwE) 3.3
+ 
+## Setup Flutter
+- If you haven't set up flutter on your machine yet, please follow this doc.([Install-Flutter](https://flutter.io/docs/get-started/install)) 
 
-This project is a starting point for a Flutter application.
+## Packages
+- http: ">=0.11.3+12" package was used.
 
-A few resources to get you started if this is your first Flutter project:
+- Install packages
 
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+  $ flutter packages get
+  
+  (Android Studio will install the flutter packages automatically.)
+  
+ # Data
+ - The [fake data](https://randomuser.me/) was used for this testing.
+ 
+ # Responsive
+ - UI works on phone/tablet.
+ - Scroll View and ConstrainedBox was used.
+ 
